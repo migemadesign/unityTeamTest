@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Test01 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    int a, b;
     void Start()
     {
-        
+        a = 5;
+        b = 2;
+        Debug.Log($"start,{MathTwo(a,b)}");
     }
 
-    // Update is called once per frame
-    void Update()
+    int MathTwo(int num,int num2) 
     {
-        
+        int answer;
+        return answer = num * num2;
     }
+
 }
